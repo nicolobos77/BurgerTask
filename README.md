@@ -1,19 +1,38 @@
-# BurgerTask
-BurgerTask is a React-based order management system designed for small food businesses.
-It includes an operator dashboard to manage orders in real time and a customer-facing display that automatically updates when orders are ready, featuring visual animations and sound notifications.
+# BurgerTask 🍔
 
-The project uses browser localStorage for state synchronization between multiple views and focuses on simplicity, responsiveness, and real-world usability.
+BurgerTask is a small web app to manage restaurant orders in real time.
+It allows staff to create, update and track orders, while customers can
+see the order status on a live screen.
 
-# How to Use:
+## 🚀 Features
+- Order management (create, update, cancel)
+- Real-time customer order board
+- Sound notification when an order is ready
+- Local storage persistence
+- Multi-language support (English / Spanish)
+- Responsive layout
 
-## 1 - Clone this repository
+## 🛠 Tech Stack
+- React
+- Vite
+- JavaScript
+- CSS
+- LocalStorage (no backend)
 
-```git
+## ▶️ How to run the project locally
+
+### 1. Clone the repository
+```bash
 git clone https://github.com/nicolobos77/BurgerTask.git
+cd BurgerTask
 ```
-
-## 2 - Run it
-
+### 2. Install dependencies
+```bash
+npm install
 ```
+### 3. Start the development server
+```bash
 npm run dev
 ```
+### 4. Open web browser at
+http://localhost:5173
